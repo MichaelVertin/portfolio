@@ -3,22 +3,22 @@ import Image from 'next/image';
 const projectData = {
 	"SCA Image Search (Cline Library)": {
 		imageURL: "/project1.png",
-		projectDesc: "Desc SCA Image Search",
+		projectDesc: "Web-based AI image search application developed to search through images Northern Arizona University's Special Collection and Archives. Uses feature extaaction and inner product similarity to compare 100,000+ visual documents. Deployed containerized backend and frontend services via Docker Compose and AWS EC2.",
 		projectLink: "https://insight.library.nau.edu/",
 	},
 	"Robot Invasion": {
 		imageURL: "/project2.png",
-		projectDesc: "Desc Robot Invasion",
+		projectDesc: "Real-time tower defense game with dynamic wave difficuly. Each turret has unique abilities, damaging the machines before they can invade the base.",
 		projectLink: "https://github.com/MichaelVertin/TowerDefense",
 	},
 	"Optimized Word Search": {
 		imageURL: "/project3.png",
-		projectDesc: "Desc Word Search",
+		projectDesc: "Word search project developed a class competition. Increased performance by 550%-1300% using: controlled traversal order to support pruning duplicate entries, probabilistic analysis to safely skip expensive costs, and targetted optimization for setups with specific configurations.",
 		projectLink: "https://github.com/MichaelVertin/High-Performance-Boggle-Search",
 	},
 	"Competitive Halma AI": {
 		imageURL: "/project4.png",
-		projectDesc: "Desc Halma",
+		projectDesc: "Automated Halma game player developed for a class competition. Implemented self-adjusting depth control to maximize the alloted time. Improved alpha-beta algorithm performance by shallow-sorting recursion order to decrease pruning conditions faster.",
 		projectLink: "https://github.com/MichaelVertin/Halma-Competition",
 	}
 };
