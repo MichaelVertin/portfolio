@@ -54,6 +54,7 @@ export default function ProjectsSection() {
 								<div className="flex gap-2">
 									<a
 										href={data.projectLink}
+										target="_blank"
 										className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base"
 									>
 										View Project →
