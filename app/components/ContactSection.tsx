@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-export default function ContactSection() {
+export default function ContactSection() { 
 	return (
 		<section className="py-16 px-4 border-t border-gray-100">
 			<div className="max-w-2xl mx-auto">
