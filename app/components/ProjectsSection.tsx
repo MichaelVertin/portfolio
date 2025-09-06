@@ -3,19 +3,23 @@ import Image from 'next/image';
 const projectData = {
 	"SCA Image Search (Cline Library)": {
 		imageURL: "/project1.png",
-		projectDesc: "Desc SCA Image Search"
+		projectDesc: "Desc SCA Image Search",
+		projectLink: "https://insight.library.nau.edu/",
 	},
 	"Robot Invasion": {
 		imageURL: "/project2.png",
-		projectDesc: "Desc Robot Invasion"
+		projectDesc: "Desc Robot Invasion",
+		projectLink: "https://github.com/MichaelVertin/TowerDefense",
 	},
 	"Optimized Word Search": {
 		imageURL: "/project3.png",
-		projectDesc: "Desc Word Search"
+		projectDesc: "Desc Word Search",
+		projectLink: "https://github.com/MichaelVertin/High-Performance-Boggle-Search",
 	},
 	"Competitive Halma AI": {
 		imageURL: "/project4.png",
-		projectDesc: "Desc Halma"
+		projectDesc: "Desc Halma",
+		projectLink: "https://github.com/MichaelVertin/Halma-Competition",
 	}
 };
 
@@ -49,7 +53,7 @@ export default function ProjectsSection() {
 								</p>
 								<div className="flex gap-2">
 									<a
-										href="#"
+										href={data.projectLink},
 										className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base"
 									>
 										View Project →
