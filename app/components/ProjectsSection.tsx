@@ -53,7 +53,7 @@ export default function ProjectsSection() {
 								</p>
 								<div className="flex gap-2">
 									<a
-										href={data.projectLink},
+										href={data.projectLink}
 										className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base"
 									>
 										View Project →
