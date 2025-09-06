@@ -9,7 +9,7 @@ export default function ProjectsSection() {
 					{[1, 2, 3, 4].map((project) => (
 						<div key={project} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
 							<div className="aspect-video bg-gray-100 relative">
-								<Image src={`/code.jpg`} alt={`Project ${project}`} fill className="object-cover" />
+								<Image src={`/project${project}.png`} alt={`Project ${project}`} fill className="object-cover" />
 							</div>
 							<div className="p-4 sm:p-6">
 								<h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Project Title {project}</h3>
