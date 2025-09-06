@@ -6,7 +6,7 @@ const projectData = {
 		projectDesc: "Desc SCA Image Search",
 		projectLink: "https://insight.library.nau.edu/",
 	},
-	"Robot Invasion": {
+	"Robot Invasion": { 
 		imageURL: "/project2.png",
 		projectDesc: "Desc Robot Invasion",
 		projectLink: "https://github.com/MichaelVertin/TowerDefense",
