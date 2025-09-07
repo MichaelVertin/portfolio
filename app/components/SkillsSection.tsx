@@ -16,7 +16,7 @@ export default function SkillsSection() {
 				</h2>
 		
 				{/* Equal-width columns, left-aligned text */}
-				<div className="grid grid-cols-3 gap-x-8 gap-y-4 text-sm sm:text-base text-gray-700">
+				<div className="grid grid-cols-5 gap-x-8 gap-y-4 text-sm sm:text-base text-gray-700">
 					{skills.map((skill) => (
 						<div key={skill} className="text-left">
 							{skill}
