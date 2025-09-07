@@ -14,7 +14,7 @@ export default function SkillsSection() {
 				<h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8">
 					Skills & Technologies
 				</h2>
-				<div className="grid grid-cols-6 grid-flow-col justify-center gap-x-8 text-sm sm:text-base text-gray-700">
+				<div className="grid grid-rows-6 grid-flow-col justify-center gap-x-8 text-sm sm:text-base text-gray-700">
 					{skills.map((skill) => (
 						<div key={skill} className="text-center">
 							{skill}
