@@ -1,8 +1,8 @@
 export default function SkillsSection() {
 	const skills = [
-		'Software Engineer', 'Python', 'C', 'C++', 'C#', 'Java', 'Javascript / Typescript',
+		'Software Engineer', 'Python', 'C', 'C++', 'C#', 'Java', 'Javascript', 'Typescript',
 		'HTML', 'CSS', 'Flask', 'React', 'Node.js', 'Angular',
-		'TCP & UDP', 'SQL', 'APIs', 'Git', 'Docker',
+		'TCP', 'UDP', 'SQL', 'APIs', 'Git', 'Docker',
 		'AWS EC2', 'Linux', 'Debugging', 'OOP', 'Optimization',
 		'Critical Thinking'
 	];
