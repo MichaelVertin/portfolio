@@ -27,7 +27,7 @@ const projectData = {
   "SCA Image Search (Cline Library)": {
     imageURL: "/project1.png",
     projectSummary:
-      "Web-based AI image search application developed to search through images Northern Arizona University's Special Collection and Archives. Uses feature extaaction and inner product similarity to compare 100,000+ visual documents. Deployed containerized backend and frontend services via Docker Compose and AWS EC2.",
+      "AI-powered image search tool developed to help researchers explore 100,000+ archival documents from Northern Arizona University's Special Collections and Archives.",
     projectDesc: [
       "Implemented feature extraction and inner product similarity for fast, accurate image retrieval.",
       "Deployed containerized backend and frontend services via Docker Compose and AWS EC2.",
@@ -38,7 +38,7 @@ const projectData = {
   "Robot Invasion": {
     imageURL: "/project2.png",
     projectSummary:
-      "Real-time tower defense game with dynamic wave difficuly. Each turret has unique abilities, damaging the machines before they can invade the base.",
+      "Real-time tower defense game featuring dynamic wave difficulty scaling.",
     projectDesc: [
       "Designed turrets with unique abilities to challenge players with adaptive gameplay.",
       "Balanced game mechanics to require strategic planning and timing.",
@@ -46,10 +46,10 @@ const projectData = {
     ],
     projectLink: "https://github.com/MichaelVertin/TowerDefense",
   },
-  "Optimized Word Search": {
+  "Optimized Word Search (CS470 Competition Winner)": {
     imageURL: "/project3.png",
     projectSummary:
-      "Word search project developed a class competition. Increased performance by 550%-1300% using: controlled traversal order to support pruning duplicate entries, probabilistic analysis to safely skip expensive costs, and targetted optimization for setups with specific configurations.",
+      "Created a word search solver that outperformed all student and instructor submissions in a class-wide competition.",
     projectDesc: [
       "Achieved 500% faster performance on the largest test board and 1300% faster on the smallest.",
       "Implemented traversal pruning, probabilistic skipping, and configuration-specific optimizations.",
@@ -57,10 +57,10 @@ const projectData = {
     ],
     projectLink: "https://github.com/MichaelVertin/High-Performance-Boggle-Search",
   },
-  "Competitive Halma AI": {
+  "Competitive Halma AI (CS470 Tournament Winner)": {
     imageURL: "/project4.png",
     projectSummary:
-      "Automated Halma game player developed for a class competition. Implemented self-adjusting depth control to maximize the alloted time. Improved alpha-beta algorithm performance by shallow-sorting recursion order to decrease pruning conditions faster.",
+      "Built an automated Halma game-playing agent that won a bracket-style class tournament.",
     projectDesc: [
       "Implemented dynamic depth adjustment (5–6) with randomized depth extension to meet time limits.",
       "Enhanced alpha-beta pruning with shallow-sorting heuristics for faster move evaluation.",
