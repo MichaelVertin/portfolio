@@ -7,25 +7,17 @@ export default function SkillsSection() {
 		'Critical Thinking'
 	];
 
-	// Split into 6 roughly even rows
-	const rows = [];
-	const perRow = Math.ceil(skills.length / 6);
-	for (let i = 0; i < skills.length; i += perRow) {
-		rows.push(skills.slice(i, i + perRow));
-	}
-
+	// Put skills into a 6-row grid
 	return (
 		<section className="bg-gray-50 py-12 sm:py-20">
 			<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 				<h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8">
 					Skills & Technologies
 				</h2>
-				<div className="space-y-3 sm:space-y-4">
-					{rows.map((row, idx) => (
-						<div key={idx} className="flex flex-wrap justify-center gap-x-4 sm:gap-x-6 text-sm sm:text-base text-gray-700">
-							{row.map((skill) => (
-								<span key={skill}>{skill}</span>
-							))}
+				<div className="grid grid-rows-6 grid-flow-col justify-center gap-x-8 text-sm sm:text-base text-gray-700">
+					{skills.map((skill) => (
+						<div key={skill} className="text-center">
+							{skill}
 						</div>
 					))}
 				</div>
