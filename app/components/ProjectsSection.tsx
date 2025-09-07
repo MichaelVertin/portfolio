@@ -57,7 +57,7 @@ const projectData = {
     ],
     projectLink: "https://github.com/MichaelVertin/High-Performance-Boggle-Search",
   },
-  "Competitive Halma AI (Tournament Winner)": {
+  "Competitive Halma AI": {
     imageURL: "/project4.png",
     projectSummary:
       "Built an automated Halma game-playing agent that won a bracket-style class tournament.",
