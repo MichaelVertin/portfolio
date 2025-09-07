@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+/*
 const projectData_Old = {
 	"SCA Image Search (Cline Library)": {
 		imageURL: "/project1.png",
@@ -22,7 +22,7 @@ const projectData_Old = {
 		projectLink: "https://github.com/MichaelVertin/Halma-Competition",
 	}
 };
-
+*/
 const projectData = {
   "SCA Image Search (Cline Library)": {
     imageURL: "/project1.png",
