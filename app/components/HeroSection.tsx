@@ -12,7 +12,7 @@ export default function HeroSection() {
 				<h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Michael Vertin</h1>
 				<p className="text-lg sm:text-xl text-gray-600 mb-6 sm:mb-8">Sotftware Engineer</p>
 				<p className="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base px-4">
-					I’m a software engineer with experience in computer science and mathematics. My focus is on programming clean, reliable software that connects abstract theory with practical applications. I enjoy applying concepts like graph theory, set theory, and logical reasoning to build efficient systems and accurate representations of real-world processes.
+					I am a software engineer with a foundation in computer science and mathematics, focused on building efficient and reliable systems. I enjoy applying mathematical concepts, such as probability, algorithms, and data structures, to design solutions that are both theoretically sound and practically effective. In several projects and competitions, I’ve applied concepts like probability, number theory, and algorithmic efficiency before formally studying them, using intuition and reasoning to tackle problems that are typically approached mechanically.
 				</p>
 			</div>
 		</section>
