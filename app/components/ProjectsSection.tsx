@@ -46,7 +46,7 @@ const projectData = {
     ],
     projectLink: "https://github.com/MichaelVertin/TowerDefense",
   },
-  "Optimized Word Search (CS470 Competition Winner)": {
+  "High-Performance Word Search": {
     imageURL: "/project3.png",
     projectSummary:
       "Created a word search solver that outperformed all student and instructor submissions in a class-wide competition.",
