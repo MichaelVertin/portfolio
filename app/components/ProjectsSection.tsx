@@ -27,9 +27,9 @@ const projectData = {
   "SCA Image Search (Cline Library)": {
     imageURL: "/project1.png",
     projectSummary:
-      "AI-powered image search tool developed to help researchers explore 100,000+ archival documents from Northern Arizona University's Special Collections and Archives.",
+      "AI-powered image search tool developed to help researchers explore 100,000+ archival documents in Northern Arizona University's Special Collections and Archives.",
     projectDesc: [
-      "Implemented feature extraction and inner product similarity for fast, accurate image retrieval.",
+      "Exhibited leadership and teamwork roles to implement feature extraction and inner product similarity for fast, accurate image retrieval.",
       "Deployed containerized backend and frontend services via Docker Compose and AWS EC2.",
       "Delivered a production-ready application supporting large-scale academic research."
     ],
