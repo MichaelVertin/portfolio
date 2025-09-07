@@ -6,7 +6,7 @@ export default function HeroSection() {
 	return (
 		<section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 			{/* Top Row: Image (1/3) + Name/Title (2/3) */}
-			<div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
+			<div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-2xl mx-auto">
 				{/* Profile Image (1/3 width, centered vertically + horizontally) */}
 				<div className="flex justify-center items-center">
 					<Image
