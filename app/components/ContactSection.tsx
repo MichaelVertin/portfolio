@@ -13,9 +13,6 @@ export default function ContactSection() {
 					className="text-center space-y-6"
 				>
 					<h2 className="text-2xl font-semibold text-gray-900">Contact</h2>
-					<p className="text-gray-600">
-						Interested in working together? Let&apos;s have a conversation.
-					</p>
 
 					{/* Contact Buttons */}
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
