@@ -37,7 +37,7 @@ export default function HeroSection() {
 					enjoy applying mathematical concepts such as probability, algorithms,
 					and data structures to design solutions that are theoretically
 					sound and practically effective. In several projects and competitions,
-					I leveraged concepts like probability, number theory, and time
+					I leverage concepts like probability, number theory, and time
 					complexity to create efficient solutions using analytical reasoning
 					to go beyond standard approaches.
 				</p>
