@@ -4,14 +4,14 @@ export default function SkillsSection() {
 		'Javascript', 'Typescript', 'HTML', 'CSS', 'Flask', 
 		'React', 'Node.js', 'Angular', 'TCP', 'UDP', 
 		'SQL', 'APIs', 'Git', 'Docker', 'AWS EC2', 
-		'Linux', 'OOP', 'Debugging', 'Optimization', 'Critical Thinking', 'Teamwork', 
-		'Movitated', 'focused'
+		'Linux', 'OOP', 'Debugging', 'Optimization', 'Critical Thinking', 
+		'Teamwork', 'Movitated', 'Focused'
 	];
 
 	// Put skills into a 6-row grid
 	return (
-		<section className="bg-gray-50 py-12 sm:py-20 max-w-2xl">
-			<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+		<section className="bg-gray-50 py-12 sm:py-20">
+			<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
 				<h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8 text-center">
 					Skills & Technologies
 				</h2>
