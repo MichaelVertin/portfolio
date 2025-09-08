@@ -17,11 +17,8 @@ export default function ContactSection() {
 					{/* Contact Buttons */}
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
 						{/* Email link */}
-						<a
-						  href="mailto:mikevertin64@gmail.com"
-						  className="text-gray-700 hover:text-blue-600 underline transition-colors"
-						>
-						  Email Me
+						<a href="mailto:mikevertin64@gmail.com" className="text-gray-700 hover:text-blue-600 underline transition-colors">
+						  mikevertin64@gmail.com
 						</a>
 
 						{/* Resume */}
