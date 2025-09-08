@@ -16,19 +16,12 @@ export default function ContactSection() {
 
 					{/* Contact Buttons */}
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
-						{/* Email */}
+						{/* Email link */}
 						<a
-							href="mailto:mikevertin64@gmail.com"
-							className="px-6 py-2 border border-gray-300 text-gray-700 font-medium rounded hover:bg-gray-50 transition-colors inline-flex items-center justify-center gap-2"
+						  href="mailto:mikevertin64@gmail.com"
+						  className="text-gray-700 hover:text-blue-600 underline transition-colors"
 						>
-							<svg
-								className="w-5 h-5"
-								fill="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path d="M2.25 4.5A2.25 2.25 0 0 1 4.5 2.25h15a2.25 2.25 0 0 1 2.25 2.25v15a2.25 2.25 0 0 1-2.25 2.25h-15A2.25 2.25 0 0 1 2.25 19.5v-15Zm1.5 0v.511l8.25 5.5 8.25-5.5V4.5h-16.5Zm16.5 2.978-7.608 5.071a.75.75 0 0 1-.834 0L4.5 7.478V19.5h16.5V7.478Z" />
-							</svg>
-							Email Me
+						  Email Me
 						</a>
 
 						{/* Resume */}
@@ -37,16 +30,8 @@ export default function ContactSection() {
 							target="_blank"
 							className="px-6 py-2 border border-gray-300 text-gray-700 font-medium rounded hover:bg-gray-50 transition-colors inline-flex items-center justify-center gap-2"
 						>
-							<svg
-								className="w-5 h-5"
-								fill="currentColor"
-								viewBox="0 0 20 20"
-							>
-								<path
-									fillRule="evenodd"
-									d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"
-									clipRule="evenodd"
-								/>
+							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+								<path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clipRule="evenodd"/>
 								<path
 									fillRule="evenodd"
 									d="M8 11a1 1 0 100 2h4a1 1 0 100-2H8zm0-4a1 1 0 100 2h4a1 1 0 100-2H8z"
