@@ -2,9 +2,10 @@ export default function SkillsSection() {
 	const skills = [
 		'Python', 'C', 'C++', 'C#', 'Java', 
 		'Javascript', 'Typescript', 'HTML', 'CSS', 'Flask', 
-		'React', 'Node.js', 'Angular', 'TCP', 'UDP', 'SQL', 
-		'APIs', 'Git', 'Docker', 'AWS EC2', 'Linux', 
-		'OOP', 'Debugging', 'Optimization', 'Critical Thinking', 'Teamwork'
+		'React', 'Node.js', 'Angular', 'TCP', 'UDP', 
+		'SQL', 'APIs', 'Git', 'Docker', 'AWS EC2', 
+		'Linux', 'OOP', 'Debugging', 'Optimization', 'Critical Thinking', 'Teamwork', 
+		'Movitated', 'focused'
 	];
 
 	// Put skills into a 6-row grid
