@@ -35,10 +35,10 @@ export default function HeroSection() {
 					I am a software engineer with a foundation in computer science and
 					mathematics, focused on building efficient and reliable systems. I
 					enjoy applying mathematical concepts such as probability, algorithms,
-					and data structures to design solutions that are both theoretically
+					and data structures to design solutions that are theoretically
 					sound and practically effective. In several projects and competitions,
 					I leveraged concepts like probability, number theory, and time
-					complexity to create efficient solutions, using analytical reasoning
+					complexity to create efficient solutions using analytical reasoning
 					to go beyond standard approaches.
 				</p>
 			</div>
