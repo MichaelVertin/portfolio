@@ -17,7 +17,7 @@ return (
 			</h2>
 
 			{/* Match summary width + center */}
-			<div className="max-w-2xl mx-auto">
+			<div className="">
 				<div className="grid grid-cols-5 gap-x-8 gap-y-4 text-sm sm:text-base text-gray-700">
 					{skills.map((skill) => (
 						<div key={skill} className="text-left">
